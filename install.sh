@@ -14,8 +14,7 @@ cd virtualenv-15.1.0
 python setup.py install
 cd /
 
-exit 0 #TODO
-for file in /u16pytall/version/*;
+for file in /c7pytall/version/*;
 do
   $file
 done
