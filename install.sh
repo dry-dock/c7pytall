@@ -14,6 +14,8 @@ cd virtualenv-15.1.0
 python setup.py install
 cd /
 
+yum install -y zlib openssl bzip2-devel
+
 for file in /c7pytall/version/*;
 do
   $file
