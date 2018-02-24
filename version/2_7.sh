@@ -1,7 +1,6 @@
 #!/bin/bash -e
 
 echo "================= Installing Python 2.7 ==================="
-yum install -y python27u python27u-libs python27u-devel python27u-pip python27u-virtualenv
 
 # Install virtualenv
 virtualenv -p python $HOME/venv/2.7
