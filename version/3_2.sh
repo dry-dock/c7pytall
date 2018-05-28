@@ -8,6 +8,6 @@ echo "================= Installing Python 3.2 ==================="
  ./configure 
  make 
  make altinstall
-
+ ln -s /usr/local/bin/python3.2 /usr/bin/python3.2
 
 echo "================= Successfully Installed Python 3.2 ==================="
