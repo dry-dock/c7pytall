@@ -7,6 +7,7 @@ echo "================= Installing Python 2.6 ==================="
  cd Python-2.6.9
 ./configure
  make altinstall
+ ln -s /usr/local/bin/python2.6 /usr/bin/python2.6
 
 
 echo "================= Successfully Installed Python 2.6 ==================="
