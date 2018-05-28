@@ -7,7 +7,7 @@ tar -xf Python-3.1.5.tgz
 cd Python-3.1.5
 ./configure
 make
-sudo make install
+make altinstall
 
 
 echo "================= Successfully Installed Python 3.1 ==================="
