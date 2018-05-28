@@ -7,6 +7,7 @@ tar -xf Python-2.5.6.tgz
 cd Python-2.5.6
 ./configure
 make altinstall
+ln -s /usr/local/bin/python2.5 /usr/bin/python2.5
 
 
 echo "================= Successfully Installed Python  ==================="
