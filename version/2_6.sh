@@ -7,8 +7,8 @@ echo "================= Installing Python 2.6 ==================="
  rm Python-2.6.9.tgz
  
 pushd Python-2.6.9
-  ./configure
-  make altinstall
+  ./configure -q 
+  make altinstall >/dev/null
   ln -s /usr/local/bin/python2.6 /usr/bin/python2.6
 popd
 
