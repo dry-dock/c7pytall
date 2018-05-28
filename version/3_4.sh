@@ -7,6 +7,6 @@ echo "================= Installing Python 3.4 ==================="
  cd Python-3.4.8
  ./configure 
  make
- sudo make install
+ make altinstall
 
 echo "================= Successfully Installed Python 3.4 ==================="
