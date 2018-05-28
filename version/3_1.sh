@@ -7,9 +7,9 @@ tar -xf Python-3.1.5.tgz
 rm Python-3.1.5.tgz
 
 pushd Python-3.1.5
-  ./configure
-  make
-  make altinstall
+  ./configure -q
+  make >/dev/null
+  make altinstall >/dev/null
   ln -s /usr/local/bin/python3.1 /usr/bin/python3.1
 popd
 
