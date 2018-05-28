@@ -7,8 +7,8 @@ tar -xf Python-2.3.7.tgz
 rm Python-2.3.7.tgz
 
 pushd Python-2.3.7
-  ./configure
-  make altinstall
+  ./configure -q
+  make altinstall >/dev/null
   ln -s /usr/local/bin/python2.3 /usr/bin/python2.3 
 popd
 

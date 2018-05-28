@@ -7,9 +7,9 @@ echo "================= Installing Python 3.2 ==================="
  rm Python-3.2.5.tar.bz2 
  
  pushd Python-3.2.5 
-   ./configure 
-   make 
-   make altinstall
+   ./configure -q 
+   make >/dev/null
+   make altinstall >/dev/null
    ln -s /usr/local/bin/python3.2 /usr/bin/python3.2
 popd 
 

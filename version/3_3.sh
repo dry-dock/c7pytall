@@ -7,9 +7,9 @@ echo "================= Installing Python 3.3 ==================="
  rm Python-3.3.7.tgz
  
  pushd Python-3.3.7
-   ./configure
-   make
-   make altinstall
+   ./configure -q
+   make >/dev/null
+   make altinstall >/dev/null
    ln -s /usr/local/bin/python3.3 /usr/bin/python3.3 
 popd
 
