@@ -6,7 +6,7 @@ echo "================= Installing Python 2.6 ==================="
  tar -xf Python-2.6.9.tgz
  cd Python-2.6.9
 ./configure
- make install
+ make altinstall
 
 
 echo "================= Successfully Installed Python 2.6 ==================="
