@@ -1,16 +1,16 @@
 #!/bin/bash -e
 
-# Installing pip-9.0.1
+# Installing pip-10.0.1
 wget -nv https://bootstrap.pypa.io/3.3/get-pip.py
 python get-pip.py
-python -m pip install pip==10.0.0
+python -m pip install pip==10.0.1
 
 pip install -U pip setuptools
 
-# Installing virtualenv-15.1.0
-wget -nv https://files.pythonhosted.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz
-tar xvfz virtualenv-15.2.0.tar.gz
-cd virtualenv-15.2.0
+# Installing virtualenv-16.0.0
+wget -nv https://files.pythonhosted.org/packages/33/bc/fa0b5347139cd9564f0d44ebd2b147ac97c36b2403943dbee8a25fd74012/virtualenv-16.0.0.tar.gz
+tar xvfz virtualenv-16.0.0.tar.gz
+cd virtualenv-16.0.0
 python setup.py install
 cd /
 
