@@ -8,6 +8,7 @@ cd Python-3.1.5
 ./configure
 make
 make altinstall
+ln -s /usr/local/bin/python3.1 /usr/bin/python3.1
 
 
 echo "================= Successfully Installed Python 3.1 ==================="
