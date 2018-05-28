@@ -8,6 +8,7 @@ cd  Python-3.5.5
 ./configure
 make
 make altinstall
+ln -s /usr/local/bin/python3.5 /usr/bin/python3.5 
 
 
 echo "================= Successfully Installed Python 3.5 ==================="
