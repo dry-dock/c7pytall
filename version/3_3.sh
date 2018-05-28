@@ -7,7 +7,7 @@ echo "================= Installing Python 3.3 ==================="
  cd Python-3.3.7
  ./configure
  make
- sudo make install
+ make altinstall
 
 
 
