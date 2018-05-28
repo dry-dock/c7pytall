@@ -7,9 +7,9 @@ echo "================= Installing Python 3.4 ==================="
  rm Python-3.4.8.tgz
 
  pushd Python-3.4.8
-   ./configure 
-   make
-   make altinstall
+   ./configure -q
+   make >/dev/null
+   make altinstall >/dev/null
    ln -s /usr/local/bin/python3.4 /usr/bin/python3.4 
 popd
 
