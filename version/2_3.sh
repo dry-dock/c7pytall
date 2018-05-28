@@ -7,6 +7,7 @@ tar -xf Python-2.3.7.tgz
 cd Python-2.3.7
 ./configure
 make altinstall
+ln -s /usr/local/bin/python2.3 /usr/bin/python2.3 
 
 
 echo "================= Successfully Installed Python 2.3 ==================="
