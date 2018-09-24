@@ -20,4 +20,4 @@ pip install pyopenssl ndg-httpsclient pyasn1
 pip install nose mock pytest coverage
 CFLAGS="-O0" pip install lxml
 deactivate
-echo "================= Successfully Installed Python 2.7 ==================="
+echo "================= Successfully Installed Python "$PYTHON_2_7_15_VERSION" ==================="
