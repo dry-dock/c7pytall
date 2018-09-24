@@ -16,7 +16,7 @@ rm -f /usr/src/Python-"$PYTHON_VERSION".tgz
 virtualenv -p python3.7 $HOME/venv/"$PYTHON_VERSION"
 
 # Install pip packages
-. $HOME/venv/"$PYTHON_3_7_0_VERSION"/bin/activate
+. $HOME/venv/"$PYTHON_VERSION"/bin/activate
 pip install nose mock pytest coverage
 deactivate
 echo "================= Successfully Installed Python "$PYTHON_VERSION" ==================="
