@@ -13,7 +13,7 @@ rm /usr/src/Python-"$PYTHON_2_7_15_VERSION".tgz
 
 # Install virtualenv
 virtualenv -p python $HOME/venv/2.7
-echo $HOME
+
 # Install pip packages
 . $HOME/venv/2.7/bin/activate
 pip install pyopenssl ndg-httpsclient pyasn1
