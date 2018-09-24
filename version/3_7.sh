@@ -13,10 +13,10 @@ make altinstall
 rm -f /usr/src/Python-"$PYTHON_VERSION".tgz
 
 # Install virtualenv
-virtualenv -p python3.7 $HOME/venv/"$PYTHON_VERSION"
+virtualenv -p python3.7 $HOME/venv/3.7
 
 # Install pip packages
-. $HOME/venv/"$PYTHON_VERSION"/bin/activate
+. $HOME/venv/3.7/bin/activate
 pip install nose mock pytest coverage
 deactivate
 echo "================= Successfully Installed Python "$PYTHON_VERSION" ==================="

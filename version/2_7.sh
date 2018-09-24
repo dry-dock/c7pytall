@@ -12,7 +12,7 @@ make altinstall
 rm /usr/src/Python-"$PYTHON_VERSION".tgz
 
 # Install virtualenv
-virtualenv -p python $HOME/venv/2.7
+virtualenv -p python2.7 $HOME/venv/2.7
 
 # Install pip packages
 . $HOME/venv/2.7/bin/activate
