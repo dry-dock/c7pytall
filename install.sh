@@ -1,9 +1,9 @@
 #!/bin/bash -e
 
-# Installing pip-10.0.1
+# Installing pip-18.0
 wget -nv https://bootstrap.pypa.io/3.3/get-pip.py
 python get-pip.py
-python -m pip install pip==10.0.1
+python -m pip install pip==18.0
 
 pip install -U pip setuptools
 
