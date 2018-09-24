@@ -19,4 +19,4 @@ virtualenv -p python3.7 $HOME/venv/"$PYTHON_3_7_0_VERSION"
 . $HOME/venv/"$PYTHON_3_7_0_VERSION"/bin/activate
 pip install nose mock pytest coverage
 deactivate
-echo "================= Successfully Installed Python 3.6 ==================="
+echo "================= Successfully Installed Python "$PYTHON_3_7_0_VERSION" ==================="
