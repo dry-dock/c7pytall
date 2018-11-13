@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-export PYTHON_VERSION=3.7.0
+export PYTHON_VERSION=3.7.1
 echo "================= Installing Python "$PYTHON_VERSION" =================="
 
 yum install gcc openssl-devel bzip2-devel
