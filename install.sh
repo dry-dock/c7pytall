@@ -7,8 +7,8 @@ python -m pip install pip=="$PYTHON_PIP"
 
 pip install -U pip setuptools
 
-# Installing virtualenv-16.0.0
-export PYTHONVIRTUALENV=16.0.0
+# Installing virtualenv-16.1.0
+export PYTHONVIRTUALENV=16.1.0
 echo "================= Installing python $PYTHONVIRTUALENV =============="
 pip install -q virtualenv=="$PYTHONVIRTUALENV"
 
